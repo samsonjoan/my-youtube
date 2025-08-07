@@ -1,0 +1,27 @@
+#header{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 262px;
+	height: 100%;
+	z-index: 10000;
+	overflow-y: auto;
+	border-right: 1px solid var(--black100);
+}
+
+#main{
+	max-width: 2000px;
+	min-height: 100vh;
+	margin: 0 auto;
+	padding-left: 260px;
+}
+
+#footer{
+	text-align: center;
+	background-color: #333;
+	border-top: 1px solid var(--black100);
+	padding: 20px;
+	margin-left: 261px;
+	width: calc(100% - 261px);
+	color: var(--black400);
+}
